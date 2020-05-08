@@ -1,0 +1,33 @@
+﻿<html>
+<head>
+    <title>База даних</title>
+</head>
+<body>
+<form action="/add.php">
+        Name =<input type="text" name="name">
+   <p> Phone=<input type="text" name="phone">
+    <p> Street=<input type="text" name="street">
+    <p><input type="submit" value="Добавити">
+</form>
+
+<form action="/delete.php">
+ID для видалення=<input type="text" name="DelID">
+       <p> <input type="submit" value="Видалити">
+</form>
+
+<form action="/update.php">
+ID для оновлення=<input type="text" name="UpID">
+<p>Нове ім'я=<input type="text" name="NewName">
+<p>Новий телефон=<input type="text" name="NewPhone">
+<p>Нова адреса=<input type="text" name="NewStreet">
+        <p><input type="submit" value="Оновити">
+</form>
+
+
+<form action="/view.php">
+        <p><input type="submit" value="Переглянути">
+</form>
+
+
+</body>
+</html>
